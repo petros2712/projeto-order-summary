@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+html{
+    background-image: url(/images/pattern-background-desktop.svg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.order{
+    width: 25%;
+    min-height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.order .ilustracao{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order .musica{
+    position: relative;
+    top: 270px;
+    left: 70px;
+}
+
+.order .informacao{
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+.order .informacao h1{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: -25px;
+    text-align: center;
+}
+
+.order .informacao p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: -25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.order .plano{
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+.order .plano h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.order .plano p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 65px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.order .plano a{
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: -50px;
+    left: 350px;
+}
+
+.order .botoes h1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.order .botoes p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 100px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
